@@ -1,0 +1,73 @@
+/* Kyle-Jack Essien, 8963634 */
+
+body{
+width: 90%;
+max-width: 1200;
+margin: 0 auto;
+font: italic small-caps bold 18px/1.7 cursive , sans-serif;
+padding: 20px;
+}
+.header-footer{
+ border: 2px solid #001;
+ border-radius: 11px;
+ padding: 10px;
+ margin: 20px 0;
+
+}
+h1, h2{
+    color: #335;
+    font-variant: small-caps;
+}
+
+footer p{
+    font-size: 0.8em;
+    color: #666;
+}
+
+main{
+    float: left;
+    width: 66.67%;
+    padding: 20px;
+    margin-right: 2%;
+}
+
+aside{
+    float: left;
+    width: 30%;
+    padding: 20px;
+    margin: 0;
+}
+
+main::after, aside::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.mainimg{
+    border:2px solid #ccc;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+}
+q{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+aside ul > li > a{
+    text-decoration: none;
+    color: #0067cc;
+}
+aside ul > li > a:hover {
+   color: #ae8351; 
+}
+
+footer{
+    clear: both;
+}
